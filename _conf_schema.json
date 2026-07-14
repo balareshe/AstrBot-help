@@ -1,0 +1,9 @@
+{
+  "menu_content": {
+    "description": "菜单内容",
+    "type": "text",
+    "hint": "每行一条菜单项，/h 和 /帮助 会原样展示",
+    "obvious_hint": true,
+    "default": "🤖 /h - 查看本菜单\n🤖 /帮助 - 同 /h\n🎮 /roll - 掷骰子\n😆 /joke - 讲个笑话\n📊 /status - 机器人状态"
+  }
+}
