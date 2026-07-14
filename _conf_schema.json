@@ -1,9 +1,28 @@
 {
-  "menu_content": {
-    "description": "菜单内容",
-    "type": "text",
-    "hint": "每行一条菜单项，/h 和 /帮助 会原样展示",
-    "obvious_hint": true,
-    "default": "🤖 /h - 查看本菜单\n🤖 /帮助 - 同 /h\n🎮 /roll - 掷骰子\n😆 /joke - 讲个笑话\n📊 /status - 机器人状态"
+  "menus": {
+    "description": "自定义菜单",
+    "type": "template_list",
+    "hint": "点击 + 添加更多菜单，每条菜单 = 一个命令 + 对应的展示内容。",
+    "templates": {
+      "menu_item": {
+        "name": "菜单项",
+        "display_item": "command",
+        "hide_hint_in_list": true,
+        "items": {
+          "command": {
+            "description": "命令名",
+            "type": "string",
+            "hint": "无需加 /，如填 h 则用 /h 触发。默认的 /h 和 /帮助 始终可用。",
+            "default": "h"
+          },
+          "content": {
+            "description": "菜单内容",
+            "type": "text",
+            "hint": "每行一条，触发该命令时原样展示",
+            "default": "🤖 /h - 查看本菜单\n🤖 /帮助 - 同 /h\n🎮 /roll - 掷骰子\n😆 /joke - 讲个笑话\n📊 /status - 机器人状态"
+          }
+        }
+      }
+    }
   }
 }

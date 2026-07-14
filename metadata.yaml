@@ -2,6 +2,6 @@ name: better_help
 display_name: 更好用的帮助菜单
 desc: 纯文字帮助菜单插件，支持分类管理和 YAML 自定义菜单项，告别图片式 /help
 short_desc: 可自定义分类的纯文字帮助菜单
-version: v1.0.2
+version: v1.2.0
 author: 摆烂人生
 repo: https://github.com/balareshe/AstrBot-help
